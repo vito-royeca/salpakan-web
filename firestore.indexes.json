@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Game",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "player2Id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "player1Id",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
