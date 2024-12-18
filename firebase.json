@@ -33,18 +33,27 @@
       }
     ]
   },
+  "storage": {
+    "rules": "storage.rules"
+  },
   "emulators": {
     "auth": {
-      "port": 8099
+      "port": 9099
     },
     "functions": {
-      "port": 8091
+      "port": 5001
     },
     "firestore": {
-      "port": 8080
+      "port": 8081
+    },
+    "database": {
+      "port": 9001
     },
     "hosting": {
-      "port": 8070
+      "port": 5003
+    },
+    "tasks": {
+      "port": 9499
     },
     "ui": {
       "enabled": true
@@ -53,8 +62,5 @@
   },
   "remoteconfig": {
     "template": "remoteconfig.template.json"
-  },
-  "database": {
-    "rules": "database.rules.json"
   }
 }
